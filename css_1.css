@@ -876,7 +876,6 @@ a.groups:hover{color: var(--neutral) !important;}
 .qeel_bas_droit i, .qeel_liens_rapides i, .qeel_parto_div i, .pa_general a i{border: 1px solid var(--contrast); 
   border-radius: 5px; padding: 5px; aspect-ratio: 1/1; font-size: 12px;
     line-height: 12px; width: 24px; text-align: center !important;}
-.qeel_bas_droit qeel_lien_gazette i
 
 /*** ------------------------------- ***/
 /*** BARRE DE NAVIGATION ----------- ***/
