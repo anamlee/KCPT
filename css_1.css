@@ -880,12 +880,6 @@ a.groups:hover{color: var(--neutral) !important;}
 /*** ------------------------------- ***/
 /*** BARRE DE NAVIGATION ----------- ***/
 
-/* Conteneur de la barre de nav */
-.overall_navbar{top: 0px; left: 0px; width: 100%; position: fixed; display: flex; gap: 30px;
-    flex-wrap: wrap; align-items: center; justify-content: end; padding: 20px;
-		background: var(--neutral); font-family: var(--fontMono); font-size: 14px; z-index: 15;}
-.overall_navbar a{color: var(--accent);}
-
 .navbar_gauche {
   display: flex;
   align-items: center;
