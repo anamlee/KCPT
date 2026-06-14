@@ -4,7 +4,7 @@
 .banner_erudroides > img, .banner_mortelles > img, .banner_astr > img{width: 400px; position: absolute;}
 .banner_erudroides > img{top: 34px; right: -60px; transform: rotate(15deg);}
 .banner_mortelles > img{top: -80px; left: 250px; transform: rotate(-15deg);}
-.banner_astr > img {top: -60px; left: -33px; transform: rotate(-23deg);}
+.banner_astr > img {top: -34px; left: -86px; transform: rotate(-14deg);}
 
 /*** MEMBERLIST ***/
 .is_displayed{display: block !important;}
