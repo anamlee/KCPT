@@ -92,7 +92,7 @@ erudroides{color: var(--grpErudroides);}
 .pa_ys { grid-area: 1 / 1 / 2 / 5; font-family: "Ocular Doom"; font-size: 90px; line-height: 80px; text-align: right; z-index: 1;}
 .pa_contexte { grid-area: 2 / 3 / 3 / 5; z-index: 1;}
 .pa_contexte_liens {padding-top: 30px; display: flex; justify-content: space-between;}
-.pa_updates { grid-area: 3 / 1 / 4 / 3; z-index: 4; border: 1px solid var(--contrast); padding: 30px; border-radius: 15px;}
+.pa_updates { grid-area: 3 / 1 / 4 / 3; z-index: 4; border: 1px solid var(--contrast); padding: 30px; border-radius: 5px;}
 .pa_updates span {border: 1px solid var(--contrast); border-radius: 5px; font-family: var(--fontMono); padding: 4px; float: left; margin-right: 9px;}
 .pa_updates span.pa_updates_new{border: 1px solid var(--accentClr); background-color: var(--accentClr); color: var(--neutral);}
 .pa_updates_scroll{display: flex; flex-direction: column; row-gap: 15px; overflow: auto; height: 114px; padding-right: 5px;}
@@ -111,7 +111,7 @@ erudroides{color: var(--grpErudroides);}
 .pa_temps .pa_temps_sablier{position: absolute; height: 160px; transform: rotate(15deg); top: 0px; right: 7px; z-index: 3;}
 .pa_liens { grid-area: 3 / 3 / 5 / 4; display: flex; height: 100%; flex-direction: column; justify-content: space-between; margin-top: -10px;}
 .pa_derniers_sujets_global { grid-area: 3 / 4 / 6 / 5; border: 1px solid var(--contrast); padding: 30px;
-    border-radius: 15px;}
+    border-radius: 5px;}
 .pa_derniers_sujets{overflow: auto; height: 325px; padding-right: 5px;}
 .pa_derniers_sujets > .derniers_sujets_3_topic > a {display: block; font-size: var(--normal-size);}
 .derniers_sujets_3_topic:not(:last-child){margin-bottom: 30px;}
@@ -189,7 +189,7 @@ erudroides{color: var(--grpErudroides);}
   opacity: 0;
   visibility: hidden;
   transition: all ease .7s;
-  border-radius: 15px;
+  border-radius: 5px;
   border: 1px solid var(--contrast);
   font-family: var(--fontMono);
 }
@@ -924,7 +924,7 @@ a.mainmenu img {
   padding: 20px 10px 10px 0;
   font-family: var(--font);
 }
-.popup_liens_utiles > .popup_content > div{padding: 10px; border: 1px solid var(--contrast); border-radius: 15px; max-width: 500px; width: max-content;
+.popup_liens_utiles > .popup_content > div{padding: 10px; border: 1px solid var(--contrast); border-radius: 5px; max-width: 500px; width: max-content;
   background-color: var(--neutral); white-space: normal;}
 .popup_liens_utiles .popup_content a{padding: 0 5px; font-weight: normal;}
 .popup_content .header_icon{color: var(--accentClrDark) !important; width: 18px; text-align: center;}
