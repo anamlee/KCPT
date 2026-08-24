@@ -109,7 +109,7 @@ erudroides{color: var(--grpErudroides);}
 .pa_temps h2:first-child {border-bottom: 1px solid var(--contrast); padding-bottom: 5px; margin-bottom: 10px;}
 .pa_temps > h2{padding: 0px; z-index: 3; position: relative; text-align: left;}
 .pa_temps .pa_temps_sablier{position: absolute; height: 160px; transform: rotate(15deg); top: 0px; right: 7px; z-index: 3;}
-.pa_liens { grid-area: 3 / 3 / 5 / 4; display: flex; height: 100%; flex-direction: column; justify-content: space-between; margin-top: -10px;}
+.pa_liens { grid-area: 3 / 3 / 5 / 4; display: flex; height: calc(100% - 10px); flex-direction: column; justify-content: space-between; margin-top: -10px;}
 .pa_derniers_sujets_global { grid-area: 3 / 4 / 6 / 5; border: 1px solid var(--contrast); padding: 30px;
     border-radius: 5px;}
 .pa_derniers_sujets{overflow: auto; height: 325px; padding-right: 5px;}
@@ -869,7 +869,7 @@ a.groups:hover{color: var(--neutral) !important;}
     font-family: var(--fontMono);
     text-transform: uppercase;}
 .qeel_gazette { border: 1px solid var(--contrast); border-radius: 5px;
-    padding: 20px; width: 100%; max-height: 350px; overflow: auto; position: relative; z-index: 5; background: var(--neutral);}
+    padding: 20px; width: 100%; max-height: 332px; overflow: auto; position: relative; z-index: 5; background: var(--neutral);}
 .qeel_gazette h2, .pa_derniers_sujets_global h2, .pa_updates h2{border-bottom: 1px solid var(--contrast); margin-bottom: 10px; 
   padding-bottom: 5px;}
 .qeel_lien_gazette{font-family: var(--fontMono); text-align: right; margin-top: 10px; text-transform: uppercase;}
