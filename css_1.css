@@ -841,7 +841,7 @@ nav#switcheroo:before {
     height: 50px; color: var(--contrast) !important;}
 .qeel_liens_rapides a i{border-color: }
 
-a > i{border-color: var(--textColorAccent) !important;}
+a > i{border-color: var(--textColorAccent);}
 .qeel_img{position: absolute; width: 100%; left:0;
   overflow: hidden; margin-top: -490px;}
 .qeel_img img{ width: 130%; left: -17%; position: relative;
