@@ -82,7 +82,8 @@
 .post_avatar img{width: 200px; height: 320px; border-radius: 5px;}
 .post_avatar{position: relative;}
 .viewtopic_body_on_avatar{position: absolute; top: 0; left: 0; background: var(--neutral); visibility: hidden; opacity: 0; transition: opacity .2s, visibility .2s; margin: 15px;
-    padding: 15px; border-radius: 5px; font-size: var(--little-size);}
+    padding: 15px; border-radius: 5px; font-size: var(--little-size); width: 170px; max-height: 290px; overflow: auto; box-sizing: border-box;}
+.post_avatar .viewtopic_body_on_avatar .user_field {overflow-wrap: break-word;  hyphens: auto;}
 .post_avatar:hover .viewtopic_body_on_avatar {visibility: visible; opacity: 1;}
 .viewtopic_body_on_avatar:empty {display: none;}
 
@@ -96,7 +97,7 @@
 
 .viewtopic_body_over_avatar{position: relative;}
 .viewtopic_body_over_avatar:empty{display: none;}
-.viewtopic_body_over_avatar .field_content{border: 1px solid var(--contrast); background-color: var(--neutral); display: block; border-radius: 5px; text-align: center; padding: 5px; opacity: 0.85;}
+.viewtopic_body_over_avatar{border: 1px solid var(--contrast); background-color: var(--neutral); display: block; border-radius: 5px; text-align: center; padding: 5px; opacity: 0.85;}
 .viewtopic_body_over_avatar .field_label{display: none;}
 .viewtopic_body_over_avatar .field_content:before, .viewtopic_body_over_avatar .field_content{z-index: 5; position: relative;}
 .grp_mortelles .viewtopic_body_over_avatar .field_content:before{content: "Mortel-les \A Famille "; white-space: pre;}
