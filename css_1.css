@@ -95,21 +95,7 @@
 .grp_astr .post_profile .field_label{color: var(--grpAstr) !important;}
 .grp_mortelles .post_profile .field_label{color: var(--grpMortelles) !important;}
 
-.viewtopic_body_over_avatar{position: relative;}
-.viewtopic_body_over_avatar:empty{display: none;}
-.viewtopic_body_over_avatar{border: 1px solid var(--contrast); background-color: var(--neutral); display: block; border-radius: 5px; text-align: center; padding: 5px; opacity: 0.85;}
-.viewtopic_body_over_avatar .field_label{display: none;}
-.viewtopic_body_over_avatar .field_content:before, .viewtopic_body_over_avatar .field_content{z-index: 5; position: relative;}
-.grp_mortelles .viewtopic_body_over_avatar .field_content:before{content: "Mortel-les \A Famille "; white-space: pre;}
-.grp_astr .viewtopic_body_over_avatar .field_content:before{content: "ASTR \A"; white-space: pre;}
-.grp_erudroids .viewtopic_body_over_avatar .field_content:before{content: "Erudroïds \A"; white-space: pre;}
-.viewtopic_body_over_avatar .user_field:after{content: " "; position: absolute; background-size: contain !important; background-repeat: no-repeat !important;}
-.grp_mortelles .viewtopic_body_over_avatar .field-maison, .grp_mortelles .viewtopic_body_over_avatar .field-cercle, .grp_astr .viewtopic_body_over_avatar .field-cercle,
-.grp_astr .viewtopic_body_over_avatar .field-famille, .grp_erudroids .viewtopic_body_over_avatar .field-famille, .grp_erudroids .viewtopic_body_over_avatar .field-maison{display: none;}
-.grp_mortelles .viewtopic_body_over_avatar .user_field:after{background: url(https://2img.net/i.imgur.com/ypG0PYw.png); width: 380px; height: 380px; top: -66px; left: -145px; rotate: -59deg;}
-.grp_astr .viewtopic_body_over_avatar .user_field:after{background: url(https://2img.net/i.imgur.com/UbE3z6j.png); width: 350px; height: 350px; top: -66px; left: -211px; rotate: -3deg;}
-.grp_erudroids .viewtopic_body_over_avatar .user_field:after{background: url(https://2img.net/i.imgur.com/QFgwmgk.png); width: 320px; height: 320px; top: -66px; left: -236px; rotate: -27deg;}
-
+/* viewtopic on avatar @here */
 .viewtopic_body_under_avatar .field-date-dinscription, .viewtopic_body_under_avatar .field-couleur-de-dialogue-dark-mode, .viewtopic_body_under_avatar .field-couleur-de-dialogue-light-mode{display: none;}
 
 
