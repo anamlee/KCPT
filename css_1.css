@@ -95,7 +95,29 @@
 .grp_astr .post_profile .field_label{color: var(--grpAstr) !important;}
 .grp_mortelles .post_profile .field_label{color: var(--grpMortelles) !important;}
 
-/* viewtopic on avatar @here */
+.viewtopic_body_over_avatar{position: relative;}
+.grp_mortelles .viewtopic_body_over_avatar:not(:has(.field-famille)):after{content: "Mortel-les";}
+.grp_astr .viewtopic_body_over_avatar:not(:has(.field-maison)):after{content: "ASTR";}
+.grp_erudroids .viewtopic_body_over_avatar:not(:has(.field-cercle)):after{content: "Erudroïdes";}
+.grp_erudroids .viewtopic_body_over_avatar:not(:has(.field-cercle)):after, .grp_astr .viewtopic_body_over_avatar:not(:has(.field-maison)):after,
+.grp_mortelles .viewtopic_body_over_avatar:not(:has(.field-famille)):after{width: stretch; display: block; border-radius: 5px; border: 1px solid var(--contrast); padding: 5px;
+    position: relative; z-index: 5; background: var(--neutral); opacity: 0.9;}
+.viewtopic_body_over_avatar{background-color: var(--neutral); display: block; border-radius: 5px; text-align: center;}
+.viewtopic_body_over_avatar .field_label{display: none;}
+.viewtopic_body_over_avatar .field_content:before, .viewtopic_body_over_avatar .field_content{z-index: 5; position: relative; width: stretch; padding: 5px;}
+.viewtopic_body_over_avatar .field_content:before{display: inline;}
+.viewtopic_body_over_avatar .field_content{border: 1px solid var(--contrast); opacity: 0.9; display: block; 
+    background: var(--neutral); border-radius: 5px;}
+.grp_mortelles .viewtopic_body_over_avatar .field_content:before{content: "Mortel-les \A Famille "; white-space: pre;}
+.grp_astr .viewtopic_body_over_avatar .field_content:before{content: "ASTR \A"; white-space: pre;}
+.grp_erudroids .viewtopic_body_over_avatar .field_content:before{content: "Erudroïdes \A"; white-space: pre;}
+.viewtopic_body_over_avatar:before{content: " "; position: absolute; background-size: contain !important; background-repeat: no-repeat !important;}
+.grp_mortelles .viewtopic_body_over_avatar .field-maison, .grp_mortelles .viewtopic_body_over_avatar .field-cercle, .grp_astr .viewtopic_body_over_avatar .field-cercle,
+.grp_astr .viewtopic_body_over_avatar .field-famille, .grp_erudroids .viewtopic_body_over_avatar .field-famille, .grp_erudroids .viewtopic_body_over_avatar .field-maison{display: none;}
+.grp_mortelles .viewtopic_body_over_avatar:before{background: url(https://2img.net/i.imgur.com/ypG0PYw.png); width: 380px; height: 380px; top: -66px; left: -203px; rotate: -59deg;}
+.grp_astr .viewtopic_body_over_avatar:before{background: url(https://2img.net/i.imgur.com/UbE3z6j.png); width: 350px; height: 350px; top: -66px; left: -211px; rotate: -3deg;}
+.grp_erudroids .viewtopic_body_over_avatar:before{background: url(https://2img.net/i.imgur.com/QFgwmgk.png); width: 320px; height: 320px; top: -66px; left: -236px; rotate: -27deg;}
+
 .viewtopic_body_under_avatar .field-date-dinscription, .viewtopic_body_under_avatar .field-couleur-de-dialogue-dark-mode, .viewtopic_body_under_avatar .field-couleur-de-dialogue-light-mode{display: none;}
 
 
